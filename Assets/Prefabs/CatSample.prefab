@@ -266,7 +266,7 @@ CircleCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -0.044095516}
+  m_Offset: {x: 0.03, y: -0.03}
   serializedVersion: 2
   m_Radius: 0.14368999
 --- !u!1 &3200857335777504826
@@ -541,7 +541,6 @@ GameObject:
   - component: {fileID: 3037572399393700218}
   - component: {fileID: 6851299153474034479}
   - component: {fileID: 2938802755691523058}
-  - component: {fileID: 8886367945287044579}
   m_Layer: 0
   m_Name: Head
   m_TagString: Untagged
@@ -660,22 +659,6 @@ HingeJoint2D:
   m_AngleLimits:
     m_LowerAngle: -45
     m_UpperAngle: 45
---- !u!58 &8886367945287044579
-CircleCollider2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4596089141422928126}
-  m_Enabled: 1
-  m_Density: 1
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_UsedByEffector: 0
-  m_UsedByComposite: 0
-  m_Offset: {x: 0.0005713254, y: -0.033137187}
-  serializedVersion: 2
-  m_Radius: 0.10915154
 --- !u!1 &5117585904773976590
 GameObject:
   m_ObjectHideFlags: 0
