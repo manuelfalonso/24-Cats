@@ -47,7 +47,7 @@ MonoBehaviour:
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"CatPrefab","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
-    - {fileID: 8168516144751731027, guid: b18eeb79ab9b41a4da8859ce0f0872d2, type: 3}
+    - {fileID: 8168516144751731027, guid: c02e835561b4f354a91ebc7bf94b1034, type: 3}
 --- !u!114 &185078960736281120
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -532,7 +532,8 @@ GameObject:
   - component: {fileID: 5776096071758350153}
   - component: {fileID: 7373526525637391947}
   - component: {fileID: 2396644431452486191}
-  - component: {fileID: 7217332861232647074}
+  - component: {fileID: 5926761247677063673}
+  - component: {fileID: 1391397194563964579}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -649,7 +650,7 @@ CircleCollider2D:
   m_Offset: {x: 0, y: -0.05}
   serializedVersion: 2
   m_Radius: 0.2
---- !u!114 &7217332861232647074
+--- !u!114 &5926761247677063673
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -658,11 +659,29 @@ MonoBehaviour:
   m_GameObject: {fileID: 5117585904773976590}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4b3678c0207ea334cb1d91f43a00dd77, type: 3}
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 30
-  timeGap: 0.1
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[{"name":"speed","value":{"$content":30.0,"$type":"System.Single"},"$version":"A"},{"name":"timeGap","value":{"$content":0.1,"$type":"System.Single"},"$version":"A"},{"name":"mZCord","value":{"$content":0.0,"$type":"System.Single"},"$version":"A"},{"name":"rb2d","value":null,"$version":"A"},{"name":"childRb2d","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[UnityEngine.Rigidbody2D,
+      UnityEngine.Physics2DModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"lastMousePosition","value":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1391397194563964579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5117585904773976590}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: 66b972ddb8e52f74fafc89ed7cb8dda5, type: 2}
 --- !u!1 &5327627079434308088
 GameObject:
   m_ObjectHideFlags: 0
