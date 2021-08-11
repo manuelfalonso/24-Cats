@@ -532,7 +532,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _data:
     _json: '{"declarations":{"collection":{"$content":[{"name":"CatCounterText","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"BouncesCounterText","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"Cats","value":{"$content":[],"$type":"System.Collections.Generic.List`1[[Unity.VisualScripting.FlowMachine,
-      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      Unity.VisualScripting.Flow, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"$version":"A"},{"name":"ActiveButton","value":{"$content":"Drag","$type":"EffectType"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 2115089339}
     - {fileID: 1231036419}
