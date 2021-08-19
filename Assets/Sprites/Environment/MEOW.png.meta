@@ -1,28 +1,19 @@
 fileFormatVersion: 2
-guid: 45eb0369bd669cb41acdd10ca6721a1c
+guid: 9c4f2100b22ed5e4297083cc5f9c5b61
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -560087684808781993
-    second: 24CatsDemo_0
+      213: -2421375870793974761
+    second: MEOW_0
   - first:
-      213: 8922587541199003789
-    second: 24CatsDemo_1
+      213: -4950639288396277008
+    second: MEOW_1
   - first:
-      213: 5994123909371777013
-    second: 24CatsDemo_2
+      213: 3972793090761985440
+    second: MEOW_2
   - first:
-      213: -4087561815224886850
-    second: 24CatsDemo_3
-  - first:
-      213: 897839494118799906
-    second: 24CatsDemo_4
-  - first:
-      213: 6714121943230218824
-    second: 24CatsDemo_5
-  - first:
-      213: 2825807278095621586
-    second: 24CatsDemo_6
+      213: 6818255509236706562
+    second: MEOW_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -86,7 +77,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -98,7 +89,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -110,7 +101,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: WebGL
-    maxTextureSize: 2048
+    maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 1
@@ -124,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 24CatsDemo_0
+      name: MEOW_0
       rect:
         serializedVersion: 2
-        x: 16
-        y: 32
-        width: 32
-        height: 32
+        x: 5
+        y: 3
+        width: 22
+        height: 22
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -138,134 +129,71 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75fc6e7d73b2a38f0800000000000000
-      internalID: -560087684808781993
+      spriteID: 71c7f99797b856ed0800000000000000
+      internalID: -2421375870793974761
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_1
+      name: MEOW_1
       rect:
         serializedVersion: 2
-        x: 48
-        y: 32
-        width: 64
-        height: 29
-      alignment: 9
-      pivot: {x: 0.4956938, y: 0.6520536}
+        x: 39
+        y: 3
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d802e76481663db70800000000000000
-      internalID: 8922587541199003789
+      spriteID: 0fa1c0cfbcbcb4bb0800000000000000
+      internalID: -4950639288396277008
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_2
+      name: MEOW_2
       rect:
         serializedVersion: 2
-        x: 113
-        y: 16
-        width: 11
-        height: 46
-      alignment: 9
-      pivot: {x: 0.63779867, y: 0.08061247}
+        x: 71
+        y: 3
+        width: 18
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ffc7c5ffe76f2350800000000000000
-      internalID: 5994123909371777013
+      spriteID: 0ad8efc6442322730800000000000000
+      internalID: 3972793090761985440
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_3
+      name: MEOW_3
       rect:
         serializedVersion: 2
-        x: 48
-        y: 0
-        width: 16
-        height: 32
-      alignment: 9
-      pivot: {x: 0.5086124, y: 0.7971283}
+        x: 101
+        y: 3
+        width: 22
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: eb9d1169f201647c0800000000000000
-      internalID: -4087561815224886850
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 24CatsDemo_4
-      rect:
-        serializedVersion: 2
-        x: 64
-        y: 0
-        width: 16
-        height: 32
-      alignment: 9
-      pivot: {x: 0.48277473, y: 0.7928221}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 22a74405344c57c00800000000000000
-      internalID: 897839494118799906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 24CatsDemo_5
-      rect:
-        serializedVersion: 2
-        x: 82
-        y: 0
-        width: 14
-        height: 32
-      alignment: 9
-      pivot: {x: 0.31298718, y: 0.8746401}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84284ec955a5d2d50800000000000000
-      internalID: 6714121943230218824
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: 24CatsDemo_6
-      rect:
-        serializedVersion: 2
-        x: 98
-        y: 0
-        width: 14
-        height: 32
-      alignment: 9
-      pivot: {x: 0.3228302, y: 0.8789463}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 2dd5a966fb8473720800000000000000
-      internalID: 2825807278095621586
+      spriteID: 20d67efc24f4f9e50800000000000000
+      internalID: 6818255509236706562
       vertices: []
       indices: 
       edges: []
