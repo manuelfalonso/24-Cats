@@ -4,25 +4,25 @@ TextureImporter:
   internalIDToNameTable:
   - first:
       213: -560087684808781993
-    second: 24CatsDemo_0
+    second: DEMO_Cat1_1
   - first:
       213: 8922587541199003789
-    second: 24CatsDemo_1
+    second: DEMO_Cat1_0
   - first:
       213: 5994123909371777013
-    second: 24CatsDemo_2
+    second: DEMO_Cat1_2
   - first:
       213: -4087561815224886850
-    second: 24CatsDemo_3
+    second: DEMO_Cat1_3
   - first:
       213: 897839494118799906
-    second: 24CatsDemo_4
+    second: DEMO_Cat1_4
   - first:
       213: 6714121943230218824
-    second: 24CatsDemo_5
+    second: DEMO_Cat1_5
   - first:
       213: 2825807278095621586
-    second: 24CatsDemo_6
+    second: DEMO_Cat1_6
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -124,7 +124,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 24CatsDemo_0
+      name: DEMO_Cat1_1
       rect:
         serializedVersion: 2
         x: 16
@@ -132,7 +132,7 @@ TextureImporter:
         width: 32
         height: 32
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -145,7 +145,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_1
+      name: DEMO_Cat1_0
       rect:
         serializedVersion: 2
         x: 48
@@ -166,7 +166,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_2
+      name: DEMO_Cat1_2
       rect:
         serializedVersion: 2
         x: 113
@@ -187,7 +187,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_3
+      name: DEMO_Cat1_3
       rect:
         serializedVersion: 2
         x: 48
@@ -208,7 +208,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_4
+      name: DEMO_Cat1_4
       rect:
         serializedVersion: 2
         x: 64
@@ -229,7 +229,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_5
+      name: DEMO_Cat1_5
       rect:
         serializedVersion: 2
         x: 82
@@ -250,7 +250,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: 24CatsDemo_6
+      name: DEMO_Cat1_6
       rect:
         serializedVersion: 2
         x: 98
