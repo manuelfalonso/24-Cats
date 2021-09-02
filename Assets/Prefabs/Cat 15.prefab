@@ -1143,10 +1143,10 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxes: 0
   RotationModule:
-    enabled: 0
+    enabled: 1
     x:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -1199,7 +1199,7 @@ ParticleSystem:
         m_RotationOrder: 4
     y:
       serializedVersion: 2
-      minMaxState: 0
+      minMaxState: 3
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -1252,9 +1252,9 @@ ParticleSystem:
         m_RotationOrder: 4
     curve:
       serializedVersion: 2
-      minMaxState: 0
-      scalar: 0.7853982
-      minScalar: 0.7853982
+      minMaxState: 3
+      scalar: 0.7853981
+      minScalar: -0.7853981
       maxCurve:
         serializedVersion: 2
         m_Curve:
@@ -4908,10 +4908,18 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 2770664044176241905, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.70799994
+      objectReference: {fileID: 0}
     - target: {fileID: 4458342604706863216, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 6204235896167171203, guid: 678b4473384c66f4a96efeb9ab656aab, type: 3}
+    - target: {fileID: 4888960306091268653, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.448
+      objectReference: {fileID: 0}
     - target: {fileID: 5070917198011308485, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4920,10 +4928,18 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -9122170711471988299, guid: 678b4473384c66f4a96efeb9ab656aab, type: 3}
+    - target: {fileID: 5787587800308133612, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: 0.81899995
+      objectReference: {fileID: 0}
     - target: {fileID: 5988932557842681138, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: -5610223160229645563, guid: 678b4473384c66f4a96efeb9ab656aab, type: 3}
+    - target: {fileID: 6523919775733751174, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.412
+      objectReference: {fileID: 0}
     - target: {fileID: 6633135476549707612, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
@@ -4932,6 +4948,10 @@ PrefabInstance:
       propertyPath: m_Sprite
       value: 
       objectReference: {fileID: 7938132290224911072, guid: 678b4473384c66f4a96efeb9ab656aab, type: 3}
+    - target: {fileID: 7678594106031546398, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
+      propertyPath: m_ConnectedAnchor.x
+      value: -0.8299999
+      objectReference: {fileID: 0}
     - target: {fileID: 8168516144751731027, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Name
       value: Cat 15
