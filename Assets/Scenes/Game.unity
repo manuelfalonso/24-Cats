@@ -3295,7 +3295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"_showAdButton","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"_androidAdUnitId","value":{"$content":"Rewarded_Android","$type":"System.String"},"$version":"A"},{"name":"_iOsAdUnitId","value":{"$content":"Rewarded_iOS","$type":"System.String"},"$version":"A"},{"name":"_secondsBetweenAds","value":{"$content":600,"$type":"System.Int32"},"$version":"A"},{"name":"CatSpawner","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AdsVideoIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"_showAdButton","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"_androidAdUnitId","value":{"$content":"Rewarded_Android","$type":"System.String"},"$version":"A"},{"name":"_iOsAdUnitId","value":{"$content":"Rewarded_iOS","$type":"System.String"},"$version":"A"},{"name":"_secondsBetweenAds","value":{"$content":600,"$type":"System.Int32"},"$version":"A"},{"name":"CatSpawner","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AdsVideoIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"_adUnitId","value":null,"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1365560820}
     - {fileID: 1198004328}
