@@ -147,7 +147,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8536289}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -5.5, y: 2, z: 0}
+  m_LocalPosition: {x: -5, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1360456681}
@@ -433,7 +433,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 0.39215687}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
@@ -1834,8 +1834,8 @@ MonoBehaviour:
       can see one advertisement video to get one new cat!","And finally you got the
       last action. Spread effect!","\u201cTime spent with cats is never wasted.\u201d
       \u2013 Sigmund Freud","","\u201cJust watching my cats can make me happy.\u201d
-      \u2013 Paula Cole","","\u201cCats are connoisseurs of comfort.\u201d \u2013
-      James Herriot","You just got to half the way to obtaining all cats!","\u201cWhat
+      \u2013 Paula Cole","\u201cCats are connoisseurs of comfort.\u201d \u2013 James
+      Herriot","You just got to half the way to obtaining all cats!","","\u201cWhat
       greater gift than the love of a cat.\u201d","There are special cats. Like the
       rainbow one, have you get it yet?","\"Cats leave paw prints in your heart,
       forever and always\"","","\u201cYou can not look at a sleeping cat and feel
@@ -2682,11 +2682,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"CatSpawner","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionButton","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"CatSpawner","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionButton","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AdsButton","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1198004328}
     - {fileID: 1484739185}
     - {fileID: 362233163}
+    - {fileID: 1365560818}
 --- !u!1 &1274231575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3208,7 +3209,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0.103773594, g: 0.07210403, b: 0.04846031, a: 0.5019608}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -3294,10 +3295,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"_showAdButton","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"_androidAdUnitId","value":{"$content":"Rewarded_Android","$type":"System.String"},"$version":"A"},{"name":"_iOsAdUnitId","value":{"$content":"Rewarded_iOS","$type":"System.String"},"$version":"A"},{"name":"_secondsBetweenAds","value":{"$content":600,"$type":"System.Int32"},"$version":"A"},{"name":"CatSpawner","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"_showAdButton","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"_androidAdUnitId","value":{"$content":"Rewarded_Android","$type":"System.String"},"$version":"A"},{"name":"_iOsAdUnitId","value":{"$content":"Rewarded_iOS","$type":"System.String"},"$version":"A"},{"name":"_secondsBetweenAds","value":{"$content":600,"$type":"System.Int32"},"$version":"A"},{"name":"CatSpawner","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AdsVideoIcon","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1365560820}
     - {fileID: 1198004328}
+    - {fileID: 204426604}
 --- !u!1 &1383303107
 GameObject:
   m_ObjectHideFlags: 0
@@ -3884,7 +3886,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1883547729}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.272, y: -1.6, z: 0}
+  m_LocalPosition: {x: 3.5, y: -1.6, z: 0}
   m_LocalScale: {x: 0.8, y: 0.8, z: 1}
   m_Children: []
   m_Father: {fileID: 662600276}
