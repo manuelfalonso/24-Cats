@@ -434,7 +434,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Name
-    value: 24CatsDemo_0
+    value: Cat1_1
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[0].m_Rect.x
@@ -522,7 +522,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Name
-    value: 24CatsDemo_1
+    value: Cat1_0
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[1].m_Rect.x
@@ -610,7 +610,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Name
-    value: 24CatsDemo_2
+    value: Cat1_2
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[2].m_Rect.x
@@ -698,7 +698,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Name
-    value: 24CatsDemo_3
+    value: Cat1_3
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[3].m_Rect.x
@@ -786,7 +786,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Name
-    value: 24CatsDemo_4
+    value: Cat1_4
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[4].m_Rect.x
@@ -874,7 +874,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Name
-    value: 24CatsDemo_5
+    value: Cat1_5
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[5].m_Rect.x
@@ -962,7 +962,7 @@ Preset:
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Name
-    value: 24CatsDemo_6
+    value: Cat1_6
     objectReference: {fileID: 0}
   - target: {fileID: 0}
     propertyPath: m_SpriteSheet.m_Sprites.Array.data[6].m_Rect.x

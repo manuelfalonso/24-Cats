@@ -10,7 +10,7 @@ PrefabInstance:
     - target: {fileID: 661253467330972556, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3797553680349442417, guid: 4acda9ccf4ccf7d4e9d2aef8e8ccd385, type: 3}
+      objectReference: {fileID: -3797553680349442417, guid: 967a6a51190696a4bb0bff35c451339a, type: 3}
     - target: {fileID: 1499397471291992210, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -58,27 +58,27 @@ PrefabInstance:
     - target: {fileID: 4458342604706863216, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -7329563962746028069, guid: 4acda9ccf4ccf7d4e9d2aef8e8ccd385, type: 3}
+      objectReference: {fileID: -7329563962746028069, guid: 967a6a51190696a4bb0bff35c451339a, type: 3}
     - target: {fileID: 5070917198011308485, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 2448167305057769370, guid: 4acda9ccf4ccf7d4e9d2aef8e8ccd385, type: 3}
+      objectReference: {fileID: 2448167305057769370, guid: 967a6a51190696a4bb0bff35c451339a, type: 3}
     - target: {fileID: 5776096071758350153, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 3968037761151487572, guid: 4acda9ccf4ccf7d4e9d2aef8e8ccd385, type: 3}
+      objectReference: {fileID: 3968037761151487572, guid: 967a6a51190696a4bb0bff35c451339a, type: 3}
     - target: {fileID: 5988932557842681138, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 8043109094360797916, guid: 4acda9ccf4ccf7d4e9d2aef8e8ccd385, type: 3}
+      objectReference: {fileID: 8043109094360797916, guid: 967a6a51190696a4bb0bff35c451339a, type: 3}
     - target: {fileID: 6633135476549707612, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 4936363740222691206, guid: 4acda9ccf4ccf7d4e9d2aef8e8ccd385, type: 3}
+      objectReference: {fileID: 4936363740222691206, guid: 967a6a51190696a4bb0bff35c451339a, type: 3}
     - target: {fileID: 7656730366034706157, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 8032176335257544385, guid: 4acda9ccf4ccf7d4e9d2aef8e8ccd385, type: 3}
+      objectReference: {fileID: 8032176335257544385, guid: 967a6a51190696a4bb0bff35c451339a, type: 3}
     - target: {fileID: 8168516144751731027, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Name
       value: Cat 8

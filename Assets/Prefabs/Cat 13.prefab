@@ -58,27 +58,27 @@ PrefabInstance:
     - target: {fileID: 4458342604706863216, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -2788012551506265574, guid: a8aff388db56c7d4a9eec600058a86ff, type: 3}
+      objectReference: {fileID: -2788012551506265574, guid: a54417b965b0adf4b8f192b4a76df2f7, type: 3}
     - target: {fileID: 5070917198011308485, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 7151639702306496061, guid: a8aff388db56c7d4a9eec600058a86ff, type: 3}
+      objectReference: {fileID: 7151639702306496061, guid: a54417b965b0adf4b8f192b4a76df2f7, type: 3}
     - target: {fileID: 5776096071758350153, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3206732951948842165, guid: a8aff388db56c7d4a9eec600058a86ff, type: 3}
+      objectReference: {fileID: -3206732951948842165, guid: a54417b965b0adf4b8f192b4a76df2f7, type: 3}
     - target: {fileID: 5988932557842681138, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -3388143824692620644, guid: a8aff388db56c7d4a9eec600058a86ff, type: 3}
+      objectReference: {fileID: -3388143824692620644, guid: a54417b965b0adf4b8f192b4a76df2f7, type: 3}
     - target: {fileID: 6633135476549707612, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: 1696116159000990777, guid: a8aff388db56c7d4a9eec600058a86ff, type: 3}
+      objectReference: {fileID: 1696116159000990777, guid: a54417b965b0adf4b8f192b4a76df2f7, type: 3}
     - target: {fileID: 7656730366034706157, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
-      objectReference: {fileID: -5132816878856744419, guid: a8aff388db56c7d4a9eec600058a86ff, type: 3}
+      objectReference: {fileID: -5132816878856744419, guid: a54417b965b0adf4b8f192b4a76df2f7, type: 3}
     - target: {fileID: 8168516144751731027, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Name
       value: Cat 13
