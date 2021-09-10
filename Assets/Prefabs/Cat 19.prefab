@@ -4901,6 +4901,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4251724529963944667, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
+      propertyPath: _data._json
+      value: '{"declarations":{"collection":{"$content":[{"name":"BouncesCounter","value":null,"$version":"A"},{"name":"MeowRate","value":{"$content":5,"$type":"System.Int32"},"$version":"A"},{"name":"CatId","value":{"$content":19,"$type":"System.Int32"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+      objectReference: {fileID: 0}
     - target: {fileID: 4458342604706863216, guid: 4a621805bc75512488578e53ad1cfc1d, type: 3}
       propertyPath: m_Sprite
       value: 
