@@ -3408,7 +3408,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -5103,6 +5103,10 @@ PrefabInstance:
     - target: {fileID: 5617690151851400650, guid: 542f41ae945265848821295c794891f3, type: 3}
       propertyPath: m_Name
       value: Cat Spawner
+      objectReference: {fileID: 0}
+    - target: {fileID: 5617690151851400650, guid: 542f41ae945265848821295c794891f3, type: 3}
+      propertyPath: m_IsActive
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6061869868797921797, guid: 542f41ae945265848821295c794891f3, type: 3}
       propertyPath: m_RootOrder
