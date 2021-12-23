@@ -3662,7 +3662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"_androidGameId","value":{"$content":"4291989","$type":"System.String"},"$version":"A"},{"name":"_iOsGameId","value":{"$content":"4291988","$type":"System.String"},"$version":"A"},{"name":"_testMode","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"_enablePerPlacementMode","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"_androidGameId","value":{"$content":"4291989","$type":"System.String"},"$version":"A"},{"name":"_iOsGameId","value":{"$content":"4291988","$type":"System.String"},"$version":"A"},{"name":"_testMode","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"_enablePerPlacementMode","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1175629361
 GameObject:
@@ -5006,10 +5006,10 @@ RectTransform:
   m_Father: {fileID: 1379283624}
   m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.5}
-  m_AnchorMax: {x: 0, y: 0.5}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 0, y: 1}
   m_AnchoredPosition: {x: 10, y: -25}
-  m_SizeDelta: {x: 50, y: 350}
+  m_SizeDelta: {x: 50, y: -100}
   m_Pivot: {x: 0, y: 0.5}
 --- !u!114 &1361298314
 MonoBehaviour:
@@ -8057,7 +8057,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 5, y: -40}
+  m_AnchoredPosition: {x: 10, y: -40}
   m_SizeDelta: {x: 0, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2115089341
