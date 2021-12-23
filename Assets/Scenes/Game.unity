@@ -599,13 +599,16 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"DragButton","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionButton","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionEffect","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadEffect","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"DragButton","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionButton","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionEffect","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadEffect","value":{"$content":4,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"DragImage","value":{"$content":5,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionImage","value":{"$content":6,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadImage","value":{"$content":7,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1342377379}
     - {fileID: 1898784565}
     - {fileID: 1175629363}
     - {fileID: 1176297634}
     - {fileID: 141034505}
+    - {fileID: 1342377380}
+    - {fileID: 1898784566}
+    - {fileID: 1175629364}
 --- !u!1 &265050225
 GameObject:
   m_ObjectHideFlags: 0
@@ -820,7 +823,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &362233164
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2140,7 +2143,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -2154,7 +2157,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1175629364}
   m_OnClick:
     m_PersistentCalls:
@@ -2527,11 +2530,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"CatSpawner","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionButton","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AdsButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"CatSpawner","value":{"$content":0,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"AdsButton","value":{"$content":1,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"ContractionButton","value":{"$content":2,"$type":"UnityEngine.Object"},"$version":"A"},{"name":"SpreadButton","value":{"$content":3,"$type":"UnityEngine.Object"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences:
     - {fileID: 1198004328}
-    - {fileID: 1484739185}
     - {fileID: 1365560818}
+    - {fileID: 1898784565}
+    - {fileID: 1175629363}
 --- !u!1 &1274231575
 GameObject:
   m_ObjectHideFlags: 0
@@ -3312,6 +3316,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1379283624}
   - component: {fileID: 1379283625}
+  - component: {fileID: 1379283628}
+  - component: {fileID: 1379283627}
+  - component: {fileID: 1379283626}
   m_Layer: 5
   m_Name: Panel
   m_TagString: Untagged
@@ -3356,6 +3363,67 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379283623}
   m_CullTransparentMesh: 1
+--- !u!114 &1379283626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379283623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d2fe5546f775c47d2820aa5e8a715f53, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"nest":{"source":"Macro","macro":0,"embed":null}}'
+    _objectReferences:
+    - {fileID: 11400000, guid: e260ac0d79710114191837e979a85a20, type: 2}
+--- !u!114 &1379283627
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379283623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e741851cba3ad425c91ecf922cc6b379, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _data:
+    _json: '{"declarations":{"collection":{"$content":[],"$version":"A"},"$version":"A"}}'
+    _objectReferences: []
+--- !u!114 &1379283628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1379283623}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_Sprite: {fileID: 10907, guid: 0000000000000000f000000000000000, type: 0}
+  m_Type: 1
+  m_PreserveAspect: 0
+  m_FillCenter: 1
+  m_FillMethod: 4
+  m_FillAmount: 1
+  m_FillClockwise: 1
+  m_FillOrigin: 0
+  m_UseSpriteMesh: 0
+  m_PixelsPerUnitMultiplier: 1
 --- !u!1 &1383303107
 GameObject:
   m_ObjectHideFlags: 0
@@ -3820,7 +3888,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1484739186
 RectTransform:
   m_ObjectHideFlags: 0
@@ -4067,7 +4135,7 @@ MonoBehaviour:
     m_HighlightedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
     m_PressedColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 1}
     m_SelectedColor: {r: 0.9607843, g: 0.9607843, b: 0.9607843, a: 1}
-    m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
+    m_DisabledColor: {r: 0, g: 0, b: 0, a: 0.78431374}
     m_ColorMultiplier: 1
     m_FadeDuration: 0.1
   m_SpriteState:
@@ -4081,7 +4149,7 @@ MonoBehaviour:
     m_PressedTrigger: Pressed
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
-  m_Interactable: 1
+  m_Interactable: 0
   m_TargetGraphic: {fileID: 1898784566}
   m_OnClick:
     m_PersistentCalls:
@@ -4935,7 +5003,7 @@ PrefabInstance:
     - target: {fileID: 3533299860915693606, guid: 542f41ae945265848821295c794891f3, type: 3}
       propertyPath: _data._objectReferences.Array.data[2]
       value: 
-      objectReference: {fileID: 362233163}
+      objectReference: {fileID: 1175629363}
     - target: {fileID: 3533299860915693606, guid: 542f41ae945265848821295c794891f3, type: 3}
       propertyPath: _data._objectReferences.Array.data[3]
       value: 
