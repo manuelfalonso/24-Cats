@@ -3662,7 +3662,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _data:
-    _json: '{"declarations":{"collection":{"$content":[{"name":"_androidGameId","value":{"$content":"4291989","$type":"System.String"},"$version":"A"},{"name":"_iOsGameId","value":{"$content":"4291988","$type":"System.String"},"$version":"A"},{"name":"_testMode","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"},{"name":"_enablePerPlacementMode","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
+    _json: '{"declarations":{"collection":{"$content":[{"name":"_androidGameId","value":{"$content":"4291989","$type":"System.String"},"$version":"A"},{"name":"_iOsGameId","value":{"$content":"4291988","$type":"System.String"},"$version":"A"},{"name":"_testMode","value":{"$content":false,"$type":"System.Boolean"},"$version":"A"},{"name":"_enablePerPlacementMode","value":{"$content":true,"$type":"System.Boolean"},"$version":"A"}],"$version":"A"},"$version":"A"}}'
     _objectReferences: []
 --- !u!1 &1175629361
 GameObject:
@@ -5401,7 +5401,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1379283623}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: fe87c0e1cc204ed48ad3b37840f39efc, type: 3}
   m_Name: 
