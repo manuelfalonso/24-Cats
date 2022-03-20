@@ -21,12 +21,11 @@ public class AdDisplay : MonoBehaviour
 
     private void Update()
     {
-        if (Advertisement.isInitialized && Advertisement.IsReady(myVideoPlacement) && !adStarted)
+        //if (Advertisement.isInitialized && Advertisement.IsReady(myVideoPlacement) && !adStarted)
+        if (Advertisement.isInitialized && !adStarted)
         {
             Advertisement.Show(myVideoPlacement);
             adStarted = true;
         }
     }
-
-
 }
